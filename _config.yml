@@ -26,6 +26,10 @@ description: >- # used by seo meta and the atom feed
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: https://colonel8377.github.io
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
 github:
   username: colonel8377 # change to your GitHub username
 
@@ -47,8 +51,8 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
-  bing: # fill in your Bing verification code
+  google: google423c00ea8607b32d # fill in your Google verification code
+  bing: D586A5FDEB5073323550837ECB4E95AA # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
   baidu: # fill in your Baidu verification code
