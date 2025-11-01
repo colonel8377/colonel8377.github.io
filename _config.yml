@@ -26,10 +26,6 @@ description: >- # used by seo meta and the atom feed
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: https://colonel8377.github.io
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-feed
-
 github:
   username: colonel8377 # change to your GitHub username
 
@@ -51,8 +47,8 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: google423c00ea8607b32d # fill in your Google verification code
-  bing: D586A5FDEB5073323550837ECB4E95AA # fill in your Bing verification code
+  google: # fill in your Google verification code
+  bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
   baidu: # fill in your Baidu verification code
@@ -64,7 +60,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: G-CY2VS894JW # fill in your Google Analytics ID
+    id: # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -101,9 +97,6 @@ theme_mode: # [light | dark]
 #
 # e.g. 'https://cdn.com'
 cdn:
-
-# the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/catmeme.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
